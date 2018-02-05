@@ -9,5 +9,3 @@ def factorial(number):
   return number * factorial(number-1)
 
 print("This is "+sys.argv[0]+"\nthe factorial of "+sys.argv[1]+ " is " +str(factorial(int(sys.argv[1]))))
-
-
